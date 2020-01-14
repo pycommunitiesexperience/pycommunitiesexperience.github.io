@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background: #111 !important;
 }
 
 ol, ul {
@@ -1964,7 +1965,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			
+
 			box-shadow: none;
 			color: #000000 !important;
 		}
@@ -2247,7 +2248,7 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			content: '\f00c';
-			
+
 			border-color: #306998;
 			color: #ffffff;
 		}
@@ -2565,7 +2566,7 @@ input, select, textarea {
 				ul.items > li:last-child {
 					margin-bottom: 0;
 				}
-					
+
 					ul.items > li > ul {
 						list-style: none;
 						padding-left: 0;
@@ -3207,7 +3208,7 @@ input, select, textarea {
 
 		#wrapper:before {
 			background-attachment: fixed;
-			
+
 			background-image: url("background.jpg");
 			background-position: -50% 10%;
 			background-repeat: repeat-y;
@@ -3259,6 +3260,16 @@ input, select, textarea {
 				grid-area: content;
 				max-width: 60rem;
 				position: relative;
+				background:#111;
+				color:#fff !important;
+			}
+
+			a.in-cell-link {
+				color:#fff !important;
+			}
+
+			#wrapper section > .content > a, p, h3, h4 {
+				color:#fff !important;
 			}
 
 			#wrapper section > footer {
@@ -3571,7 +3582,7 @@ input, select, textarea {
 
 					#wrapper > section > header {
 						background-attachment: fixed;
-						
+
 						background-image: url("../images/python_logo.png");
 						background-position: 25% 50%;
 						background-repeat: repeat-y;
