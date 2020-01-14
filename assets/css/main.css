@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background: #111 !important;
+	background: #333 !important;
 }
 
 ol, ul {
@@ -191,8 +191,15 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 600;
-		color: #000000;
+		color: #fff;
 	}
+
+	strong > a {
+		font-weight: 600;
+		color: #fff;
+	}
+
+
 
 	em, i {
 		font-style: italic;
@@ -203,7 +210,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #333;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
 		letter-spacing: 0.175em;
@@ -3260,7 +3267,7 @@ input, select, textarea {
 				grid-area: content;
 				max-width: 60rem;
 				position: relative;
-				background:#111;
+				background:#333;
 				color:#fff !important;
 			}
 
@@ -3382,10 +3389,11 @@ input, select, textarea {
 			left: 50vw;
 			position: relative;
 			width: 50vw;
+			background: #fff;
 		}
 
 			#wrapper .copyright a {
-				color: inherit;
+				color: #333 !important;
 			}
 
 		#wrapper section {
